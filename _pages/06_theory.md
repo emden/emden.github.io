@@ -25,7 +25,7 @@ order: 5
 
 <p><a href="http://en.wikipedia.org/wiki/Graph_drawing">Wikipedia entry.</a> They also have a <a href="http://en.wikipedia.org/wiki/Graphviz">short article on Graphviz</a>.<br />
 <a href="http://www.graphdrawing.org/index.html">graphdrawing.org</a> - annual symposia, books, data, open problems and more<br />
-<strong>Open</strong> <strong>Directory</strong> <strong>Project</strong> <a href="http://www.dmoz.org/Science/Math/Combinatorics/Software/Graph_Drawing/">Graph Drawing</a> entry.</p>
+<strong>Open Directory Project</strong> <a href="http://dmoztools.net/Science/Math/Combinatorics/Software/Graph_Drawing/">Graph Drawing</a> entry.</p>
 <p><br />
 <a href="http://www.csse.monash.edu.au/~gfarr/research/GraphDrawing02-Mel.ppt"> Survey (Franz Brandenburg talk notes in Powerpoint)</a><br />
 <a href="http://www.merl.com/papers/TR2001-49/">Marks et al note on history of graph drawing</a><br />

@@ -14,7 +14,7 @@ Graphviz has benefited by the contributions of many people over the years.
 * Erwin Janssen (build, Windows)
 * Stephen North (dot, neato)
 
-	and
+and
 
 * Vladimir Alexiev (codegen improvements)
 * Arif Bilgin (smyrna, gvedit and Windows support)

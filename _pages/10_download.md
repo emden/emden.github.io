@@ -4,70 +4,70 @@ title: Download
 permalink: /download/
 order: 2
 ---
-         
-         
+
+
 ## Source Code
 
-[Source code]({{ site.url }}/_pages/Download/Download_source.html) for the latest stable and 
-development versions of Graphviz are available, along with instructions for anonymous 
+[Source code packages]({{ site.url }}/_pages/Download/Download_source.html) for the latest stable and
+development versions of Graphviz are available, along with instructions for anonymous
 access to the sources using [Git](http://git-scm.com/).
 
 ## Executable Packages
 
+Packages marked with an asterisk(*) are provided by outside parties.
+We list them for convenience, but disclaim responsibility for the contents of these packages.
+
 ### Linux
 
 * [Stable and development rpms for Redhat Enterprise, or Centos systems](http://www.graphviz.org/Download_linux_rhel.php)
-
 * [Stable and development rpms for Fedora systems](http://www.graphviz.org/Download_linux_fedora.php)
-
 * [Stable and development debs for Ubuntu systems](http://www.graphviz.org/Download_linux_ubuntu.php)
+* [Debian package](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
+* [Ubuntu Precise](http://packages.ubuntu.com/precise/graphics/graphviz), [Raring](http://packages.ubuntu.com/raring/graphics/graphviz) packages*
+* [Fedora](http://fedoraproject.org/)* On a working Fedora system, use `yum list "graphviz*"` to see all available Graphviz packages.
 
 ### Windows
 
-* [Stable and development Windows install packages](http://www.graphviz.org/Download_windows.php)
+* [Development Windows install packages](https://ci.appveyor.com/project/ellson/graphviz)
+* [Stable 2.38 Windows install packages]({{ site.url }}/_pages/Download/Download_windows.html)
+* [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
+* [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 
 
 ### Mac
 
-* [Stable and development Mac OS install packages](http://www.graphviz.org/Download_macos.php)
+* [MacPorts](http://www.macports.org/)* provides both stable and development versions of
+Graphviz and the Mac GUI Graphviz.app. These can be obtained via the ports "graphviz", "graphviz-devel", "graphviz-gui" and "graphviz-gui-devel".
+* [Homebrew](http://mxcl.github.com/homebrew/)* has a Graphviz port.
+
 
 ### Solaris
 
-* [Stable and development pkgs for Solaris systems](http://www.graphviz.org/Download_solaris.php)
+For Solaris, please use the graphviz stable releases [here](http://www.opencsw.org/packages/). These are
+maintained by Laurent Blume / John Ellson. Currently available packages are:
 
-## Third-party Executable Packages
+<table>
+     <tr><td>graphviz</td><td>Graph Visualization Tools</td></tr>
+     <tr><td>graphviz_dev</td><td>Graphviz headers etc. for development</td></tr>
+     <tr><td>graphvizdoc</td><td>Graphviz documentation</td></tr>
+     <tr><td>graphvizgd</td><td>Graphviz renderers using gd</td></tr>
+     <tr><td>graphvizgraphs</td><td>Graphviz example graphs</td></tr>
+     <tr><td>graphvizguile</td><td>Graphviz language binding for guile</td></tr>
+     <tr><td>graphvizperl</td><td>Graphviz language binding for perl</td></tr>
+     <tr><td>graphvizpython</td><td>Graphviz language binding for python</td></tr>
+     <tr><td>graphvizruby</td><td>Graphviz language binding for ruby</td></tr>
+     <tr><td>graphvizsharp</td><td>Graphviz language binding for C#</td></tr>
+     <tr><td>graphviztcl</td><td>Graphviz language binding for tcl</td></tr>
+</table>
 
-Please contact us if you can offer a platform we don't have, or you've improved on what;s here.
-
-We list these links as a courtesy, but disclaim responsibility for the contents of these software products.
-
-### Linux
-* [Debian package](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)
-
-* [Ubuntu Precise](http://packages.ubuntu.com/precise/graphics/graphviz), [Raring](http://packages.ubuntu.com/raring/graphics/graphviz) packages.
-
-* [Fedora](http://fedoraproject.org/) On a working Fedora system, use:
-
-```C
-yum list "graphviz*"
-```
-
-to see all available graphviz packages.
-
-### Mac OSX
-
-* [MacPorts](http://www.macports.org/) provides both stable and development versions of 
-Graphviz and the Mac GUI Graphviz.app. These can be obtained via the ports "graphviz", "graphviz-devel", "graphviz-gui" and "graphviz-gui-devel".
-
-* [Homebrew](http://mxcl.github.com/homebrew/) has a Graphviz port.
-
-### Windows
-
-* [Cygwin Ports](http://sourceware.org/cygwinports/) provides a port of Graphviz to Cygwin.  
-
-* [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/) Win32/COM object (dot/neato library for Visual Basic and ASP).
+Minimally, graphviz and graphvizgd should be installed.
 
 ### Other Unix
 
-* [FreeBSD](http://www.freshports.org/graphics/graphviz/)
+* [FreeBSD](http://www.freshports.org/graphics/graphviz/)*
+
+
+
+
+
 

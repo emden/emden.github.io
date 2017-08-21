@@ -16,7 +16,7 @@ order: 4
 <dd><a href="{{ site.url }}/_pages/doc/info/colors.html">Colors</a></dd>
 
 <dt><b>Schema Files</b> (<a href="http://www.w3.org/XML/Schema">XSD</a> format)</dt>
-<dd><a href="{{ site.url }}/_pages/doc/info/schema.html">Node, Edge and Graph Attributes</a></dd>
+<dd><a href="{{ site.url }}/_pages/doc/info/graphviz_json_schema.json">Schema</a> for <a href="{{ site.url }}/_pages/doc/info/output.html#d:json">json output</a></dd>
 
 <dt><b>User's Guides</b> 
 <dd><b>NOTE:</b>The first two documents are not current with the features

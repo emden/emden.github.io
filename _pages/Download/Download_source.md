@@ -2,25 +2,63 @@
 layout: page
 title: Sources
 ---
-         
+
+## Source Packages
 	
+For most cases where you want or need to build from source, you should grab one
+of the source packages from [here](http://www.graphviz.org/Download_source.php).
+They contain all of required generated files. You just need to run `configure`
+to tailor the build to your machine and its libraries. The typical installation
+process is:
+
+```bash
+	./configure
+	make
+	make install
+```
+
+The `configure` script has many options for further tailoring the build
+process. Run
+
+```bash
+	./configure --help
+```
+
+to see these.
+
+
 ## Master GIT Repos
 
-The master repos for graphviz and webdot can be found at:
+If you wish to build from the
+master repos for graphviz and webdot, these can be found at:
 
 * [http://github.com/ellson/graphviz/](http://github.com/ellson/graphviz/)
 * [http://github.com/ellson/webdot/](http://github.com/ellson/webdot/)
+
+You can either download the zip file or clone the repository. Instructions
+for the latter can be found [here](https://help.github.com/articles/which-remote-url-should-i-use/).
+
+If you are taking this approach, then you must have recent versions of
+"libtool", "automake", and "autoconf". The build process is basically the same
+as above with the addition of one more step:
+
+```bash
+	./autogen.sh
+	./configure
+	make
+	make install
+```
 
 ## Requirements
 
 ### Dependencies
 
-Consider these versions as the minimum suitable for Graphviz, but please always use the 
-latest available version of these packages. If there is any problem with building Graphviz 
-against a latest version, please generate a bug report as we would very much like to 
+Consider these versions as the minimum suitable for Graphviz, but please always use the
+latest available version of these packages. If there is any problem with building Graphviz
+against a latest version, please generate a bug report as we would very much like to
 know about it.
 
-*HINT*: If you are using an rpm-based system, by far the easiest way to determine all the 
+*HINT*: If you are using an rpm-based system, by far the easiest way to determine all the
 build dependencies is to download the graphviz-xxx.src.rpm, run:  `rpmbuild --rebuild graphviz-xxx.src.rpm 2>t` , then edit `t` into a yum install command.
 
 
