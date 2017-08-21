@@ -73,7 +73,6 @@ freetype-2.1.10.tar.gz [optional (required for libpangocairo and for gd), recomm
 
 gd-2.0.34.tar.gz [optional, deprecated but needed for GIF output]
 : [http://www.boutell.com/gd/](http://www.boutell.com/gd/)
-: [http://www.graphviz.org/pub/tmp/gd-2.0.36RC1.tar.gz](www.graphviz.org/pub/tmp/)
 
 fontconfig-2.3.95.tar.gz [optional (required for libpangocairo and for gd), recommended]
 : [http://www.fontconfig.org/wiki/](http://www.fontconfig.org/wiki/)
@@ -118,9 +117,6 @@ automake-1.9.6.tar.gz [if building from git]
 
 bison-2.3.tar.gz [if building from git]
 : [http://ftp.gnu.org/gnu/bison/](http://ftp.gnu.org/gnu/bison/)
-
-cvs-1.11.22.tar.gz [if building from git]
-: [http://ftp.gnu.org/non-gnu/cvs/source/stable/](http://ftp.gnu.org/non-gnu/cvs/source/stable/)
 
 flex-2.5.4a.tar.gz [if building from git]
 : [http://ftp.gnu.org/non-gnu/flex/](http://ftp.gnu.org/non-gnu/flex/)
