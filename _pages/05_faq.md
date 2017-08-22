@@ -71,7 +71,10 @@ If you cannot find the answer to your question here, open an issue on the <a hre
  * [FaqNeatoEdgeCrossings](#FaqNeatoEdgeCrossings) Neato has unnecessary edge crossings, or has missed an obvious chance to make a much nicer layout.
  * [FaqWebdot](#FaqWebdot) Webdot doesn't work.
  * [FaqFontNotFound](#FaqFontNotFound) I have "Font not found" errors, or text labels missing in webdot.
+
+<!---
  * [FaqBrowserSVG](#FaqBrowserSVG) My browser doesn't recognize SVG.
+--->
  * [FaqLibExpat](#FaqLibExpat) libexpat is reported as containing a virus or as a security hole. Is this a real problem?
  * [FaqCoordTransformation](#FaqCoordTransformation) What is the coordinate transformation between the graph bb and a .png image?
 
@@ -946,6 +949,7 @@ If your fonts are somewhere else, then you must set that directory in the webdot
 
 You can also try to comment the line #set SIGNATURE "Graph by WebDot" in /var/www/cgi-bin/webdot.
 
+<!---
 ### <a name="FaqBrowserSVG"></a> My browser doesn't recognize SVG.
 
 The correct MIME type for svg images is: image/svg+xml (note "+" not "-").
@@ -954,6 +958,7 @@ SVG is not built into all browsers; you can get plugins from [Adobe](http://www.
 [Firefox](http://www.mozilla.com/en-US/firefox/) has a large subset of SVG and renders graphviz -Tsvg output though until graphviz 2.8, the fonts may be too large (thanks for Phil Colbourne at the RailCorp of New South Wales for this advice).
 
 For help with embedding SVG in HTML pages, see [here](http://www.graphviz.org/webdot/svgembed.html).
+--->
 
 ### <a name="FaqLibExpat"></a> libexpat is reported as containing a virus or as a security hole. Is this a real problem?
 
