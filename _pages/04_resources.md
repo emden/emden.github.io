@@ -18,6 +18,7 @@ possible, a recommendation as to appropriate category for the resource.
 <p>Interactive viewers.</p>
 
 <ul>
+<li><a href="https://github.com/magjac/d3-graphviz">d3-graphviz</a> Renders SVG from graphs described in the DOT language using the Viz.js port of Graphviz and does animated transitions between graphs. [Magnus Jacobsson]</li>
 <li><a href="http://github.com/mountainstorm/jquery.graphviz.svg/">jquery.graphviz.svg</a>, jQuery plugin to make Graphviz SVG output more interactive and easier to navigate. [Rich Cooper]</li>
 <li><a href="http://ushiroad.com/jsviz/">Liviz.js</a>, DHTML-based interactive viewer for Graphviz [Satoshi Ueyama]</li>
 <li><a href="https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool">Graphviz Test Tool</a>, a GUI front-end for Graphviz [Hansuli Anderegg ]</li>
@@ -106,6 +107,7 @@ possible, a recommendation as to appropriate category for the resource.
 			<p>Filters that transform other data sources and formats into Graphviz.</p>
 
 			<ul>
+				<li><a href="https://sourceforge.net/projects/excel-to-graphviz/">ExcelToGraphviz</a>, a tool for visualizing Excel data as graphs [Matt Castelli]</li>
 				<li><a href="http://drupal.org/project/graphapi/">Graph API</a>, a Drupal graph generation module with Graphviz Dot output capabilities. [Sebastian Daniel]</li>
 				<li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]</li>
 				<li><a href="http://www.worldcat.org/xissn/titlehistory">WorldCat xISSN</a> shows the history of a journal indexed by ISSN [OCLC Online Computer Library Center, Inc.]</li>
