@@ -19,7 +19,7 @@ We list them for convenience, but disclaim responsibility for the contents of th
 
 ### Linux
 
-* [Stable and development rpms for Redhat Enterprise, or Centos systems](//204.178.9.49/Download_linux_rhel.php)
+* [Stable and development rpms for Redhat Enterprise, or Centos systems](http://204.178.9.49/Download_linux_rhel.php)
 * [Stable and development rpms for Fedora systems](//204.178.9.49/Download_linux_fedora.php)
 * [Stable and development debs for Ubuntu systems](//204.178.9.49/Download_linux_ubuntu.php)
 * [Debian package](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
