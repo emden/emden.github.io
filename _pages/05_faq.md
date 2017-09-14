@@ -957,7 +957,7 @@ The correct MIME type for svg images is: image/svg+xml (note "+" not "-").
 SVG is not built into all browsers; you can get plugins from [Adobe](http://www.adobe.com/svg/viewer/install/main.html) for Windows, Linux and some other operating systems. 
 [Firefox](http://www.mozilla.com/en-US/firefox/) has a large subset of SVG and renders graphviz -Tsvg output though until graphviz 2.8, the fonts may be too large (thanks for Phil Colbourne at the RailCorp of New South Wales for this advice).
 
-For help with embedding SVG in HTML pages, see [here](//204.178.9.49/webdot/svgembed.html).
+For help with embedding SVG in HTML pages, see [here](http://204.178.9.49/webdot/svgembed.html).
 --->
 
 ### <a name="FaqLibExpat"></a> libexpat is reported as containing a virus or as a security hole. Is this a real problem?
