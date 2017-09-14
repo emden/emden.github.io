@@ -13,5 +13,5 @@ posting to the [issues section](https://github.com/ellson/graphviz/issues) in Gi
 
 [John Ellson](mailto:ellson@graphviz.org) (for problems with builds, installation, software configuration or this web server)
 
-[Emden Gansner](mailto:erg@graphviz.org) (for all graph layout issues)
+[Emden Gansner](mailto:erg@alum.mit.edu) (for all graph layout issues)
 

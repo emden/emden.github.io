@@ -9,7 +9,7 @@ order: 7
 graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites 
 that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in 
 <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. 
-Please <a href="mailto:erg@graphviz.org">send us</a> suggestions for additions to this list with, if 
+Please <a href="mailto:erg@alum.mit.edu">send us</a> suggestions for additions to this list with, if 
 possible, a recommendation as to appropriate category for the resource.
 
 

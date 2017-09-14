@@ -19,9 +19,9 @@ We list them for convenience, but disclaim responsibility for the contents of th
 
 ### Linux
 
-* [Stable and development rpms for Redhat Enterprise, or Centos systems](http://www.graphviz.org/Download_linux_rhel.php)
-* [Stable and development rpms for Fedora systems](http://www.graphviz.org/Download_linux_fedora.php)
-* [Stable and development debs for Ubuntu systems](http://www.graphviz.org/Download_linux_ubuntu.php)
+* [Stable and development rpms for Redhat Enterprise, or Centos systems](204.178.9.49/Download_linux_rhel.php)
+* [Stable and development rpms for Fedora systems](204.178.9.49/Download_linux_fedora.php)
+* [Stable and development debs for Ubuntu systems](204.178.9.49/Download_linux_ubuntu.php)
 * [Debian package](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
 * [Ubuntu Precise](http://packages.ubuntu.com/precise/graphics/graphviz), [Raring](http://packages.ubuntu.com/raring/graphics/graphviz) packages*
 * [Fedora](http://fedoraproject.org/)* On a working Fedora system, use `yum list "graphviz*"` to see all available Graphviz packages.

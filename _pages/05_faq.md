@@ -338,7 +338,7 @@ At this point, they either must be in PostScript or
 image files, or you'll need to modify the source code. A serious problem is that you can't make custom shapes that work across all the drivers and the interactive front-ends 
 such as dotty or Grappa. At least SVG has interactive renderers, and PostScript can be translated to PDF which also has some interactive features.
 
-**External image files**
+<a name="ext_image"></a>**External image files**
 
 If using SVG (`-Tsvg`), PostScript (`-Tps,-Tps2`) or one of the raster formats (`-Tgif, -Tpng, or -Tjpg`), you can load certain images (e.g., pictures) by file name into 
 nodes. For example:
@@ -381,7 +381,7 @@ An EPSF shape is always clipped to its bounding box.
 
 The use of `[shape=epsf, shapefile="yourfile.ps" ]` is largely superceded by the mechanism described in the previous section, using `[image="yourfile.ps" ]`.
 
-**External PostScript procedures**
+<a name="ext_ps_proc"></a>**External PostScript procedures**
 
 If using the PostScript driver (`dot -Tps`), you can define a PostScript procedure for shape drawing. The procedure must be able to draw variable-sized shapes. 
 A file containing the definition can be loaded as a command line argument using the -l flag:
@@ -419,7 +419,7 @@ where the current color is the node's `fillcolor`.
 
 For example, here are the contents of a plausible shape file, DFD.ps, which can be invoked by [shape=DFDbox]
 
-```
+```PostScript
 	/xdef {exch def} bind def
 	/DFDbox {
 		10 dict begin
@@ -957,7 +957,7 @@ The correct MIME type for svg images is: image/svg+xml (note "+" not "-").
 SVG is not built into all browsers; you can get plugins from [Adobe](http://www.adobe.com/svg/viewer/install/main.html) for Windows, Linux and some other operating systems. 
 [Firefox](http://www.mozilla.com/en-US/firefox/) has a large subset of SVG and renders graphviz -Tsvg output though until graphviz 2.8, the fonts may be too large (thanks for Phil Colbourne at the RailCorp of New South Wales for this advice).
 
-For help with embedding SVG in HTML pages, see [here](http://www.graphviz.org/webdot/svgembed.html).
+For help with embedding SVG in HTML pages, see [here](204.178.9.49/webdot/svgembed.html).
 --->
 
 ### <a name="FaqLibExpat"></a> libexpat is reported as containing a virus or as a security hole. Is this a real problem?
