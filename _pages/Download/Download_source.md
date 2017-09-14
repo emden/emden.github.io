@@ -6,7 +6,7 @@ title: Sources
 ## Source Packages
 	
 For most cases where you want or need to build from source, you should grab one
-of the source packages from [here](204.178.9.49/Download_source.php).
+of the source packages from [here](//204.178.9.49/Download_source.php).
 They contain all of required generated files. You just need to run `configure`
 to tailor the build to your machine and its libraries. The typical installation
 process is:
